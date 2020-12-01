@@ -2,16 +2,16 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class MakeVisibleWhenHit : MonoBehaviour
+public class SetActiveWhenHit : MonoBehaviour
 {
     // Start is called before the first frame update
     public GameObject target;
+    public bool active;
     void Start()
     {
-        
     }
     private void OnTriggerEnter (Collider collider) {
-        target.SetActive(true);
+        target.SetActive(active);
     }
     // Update is called once per frame
     void Update()
