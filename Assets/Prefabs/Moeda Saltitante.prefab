@@ -249,7 +249,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 82d7ea8bfea894ee78c90c91282c295e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  timeOut: 10
+  timeOut: 20
   detachChildren: 0
 --- !u!65 &-656203074504611970
 BoxCollider:
